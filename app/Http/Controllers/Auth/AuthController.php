@@ -10,6 +10,8 @@ use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
+	//成功后跳转的地址
+	protected $redirectPath = '/article';
     /*
     |--------------------------------------------------------------------------
     | Registration & Login Controller
